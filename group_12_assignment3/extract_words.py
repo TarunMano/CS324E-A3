@@ -1,7 +1,6 @@
 import re
 from collections import defaultdict
 
-
 def extract_words(text):
     # convert to lowercase
     text = text.lower()
