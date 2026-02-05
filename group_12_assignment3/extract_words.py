@@ -10,13 +10,11 @@ def extract_words(text):
 
     return words
 
-
 def main():
-
     # open novel file
     try:
         file = open("novel.txt", "r", encoding="utf-8", errors="ignore")
-    except:
+    except FileNotFoundError:
         print("Could not find novel.txt")
         return
 
@@ -68,7 +66,6 @@ def main():
     outfile.close()
 
     print("Finished writing output files.")
-
 
 if __name__ == "__main__":
     main()
