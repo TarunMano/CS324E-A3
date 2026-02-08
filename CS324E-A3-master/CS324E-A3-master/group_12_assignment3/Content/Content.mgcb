@@ -1,0 +1,34 @@
+
+#----------------------------- Global Properties ----------------------------#
+
+/outputDir:bin/$(Platform)
+/intermediateDir:obj/$(Platform)
+/platform:DesktopGL
+/config:
+/profile:Reach
+/compress:False
+
+#-------------------------------- References --------------------------------#
+
+
+#---------------------------------- Content ---------------------------------#
+
+#begin allwords.txt
+/copy:allwords.txt
+
+#begin fonts/Avocedit Smoothie.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Compressed
+/build:fonts/Avocedit Smoothie.spritefont
+
+#begin novel.txt
+/copy:novel.txt
+
+#begin uniquewords.txt
+/copy:uniquewords.txt
+
+#begin wordfrequency.txt
+/copy:wordfrequency.txt
+
